@@ -1,0 +1,10 @@
+- Live sever (five server)
+- Bootstrap 4
+- Bootstrap v4 Snippets for VS Code
+- PHP IntelliSense
+- SFTP 1.15.13
+- Color Highlight
+- color-highlight
+- Prettier Formatter
+- Flutter Color
+- jQuery Code Snippets
