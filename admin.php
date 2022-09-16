@@ -1,6 +1,8 @@
 <?php
 session_start();
 require_once 'config/db_conect.php';
+
+
 if (!isset($_SESSION['admin_login'])) {
     $_SESSION['error'] = 'กรุณาเข้าสู่ระบบ!';
     header('location: signin.php');
@@ -43,6 +45,10 @@ if (!isset($_SESSION['admin_login'])) {
 </head>
 
 <body id="page-top">
+
+<div id="loginPage"></div>
+
+
     <?php
 
     if (isset($_SESSION['admin_login'])) {
@@ -502,8 +508,9 @@ if (!isset($_SESSION['admin_login'])) {
 
     <script>
         $(() => {
-            $('#headerPage').load('pages/_header.php');
+            $('#loginPage').load('pages/_login.php');
             $('#containPage').load('pages/_contain_admin.php');
+            
             $('#containPage_2').load('pages/_contain_user_02.php');
             $('#footerPage').load('pages/_footer.php');
 

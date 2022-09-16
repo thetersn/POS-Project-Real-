@@ -364,6 +364,7 @@ if (isset($_SESSION['user_login'])) {
 
 
                     <article id="containPage" class="mt-4"></article>
+                    <div id="modalMenu"></div>
                     <article id="containPage_2" class="mt-4"></article>
 
 
@@ -435,7 +436,7 @@ if (isset($_SESSION['user_login'])) {
             $('#headerPage').load('pages/_header.php');
             $('#containPage').load('pages/_contain_user_01.php');
             $('#containPage_2').load('pages/_contain_user_02.php');
-            $('#register').load('pages/register.php');
+     
 
             $('#footerPage').load('pages/_footer.php');
 

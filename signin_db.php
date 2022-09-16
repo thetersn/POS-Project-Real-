@@ -35,7 +35,7 @@
 
                     if ($email == $row['email']) {
                         if (password_verify($password, $row['password'])) {
-                            if ($row['urole']=='admin'||'Admin') {
+                            if ($row['urole']=='Admin') {
                                 $_SESSION['admin_login'] = $row['id'];
                                 header("location: admin.php");
                             } else {

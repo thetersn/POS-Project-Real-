@@ -4,9 +4,6 @@ require_once 'config/db_conect.php';
 
 ?>
 
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
